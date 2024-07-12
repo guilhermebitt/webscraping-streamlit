@@ -47,7 +47,6 @@ def create_pdf(chart, texto, avaliacao):
     for index, row in chart.iterrows():
         for data in row.values:
             pdf.cell(47, 10, str(data), border=True)
-        pdf.ln
     pdf.set_font('Arial', '', 16)
     pdf.cell(0, 20, ln=True)
 
@@ -57,7 +56,6 @@ def create_pdf(chart, texto, avaliacao):
             pdf.multi_cell(188, 10, '   ' + paragraph.replace('█', '*'), ln=True)
         except:
             pass
-    pdf.ln
 
     # O QUE A COMUNIDADE ACHA
     pdf.add_page()
