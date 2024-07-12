@@ -73,7 +73,7 @@ def create_pdf(chart, texto, avaliacao):
 # STREAMLIT PÁGINA INICIAL
 st.title('SCP "WIKI"')
 st.text('Uma wiki alternativa para conhecer um pouco sobre os SCPs')
-st.caption('SCP, ou "Secure, Contain, Protect" (Seguro, Contenha, Proteja), refere-se a uma comunidade de ficção colaborativa que cria e compartilha histórias sobre entidades, artefatos e fenômenos anômalos. Cada SCP é designado com um número único e descrito em um formato que simula um relatório científico ou arquivo de segurança, detalhando suas propriedades incomuns e os procedimentos necessários para mantê-lo seguro e fora do alcance do público. A comunidade SCP não apenas inventa esses elementos, mas também explora suas implicações narrativas, científicas e filosóficas, criando um universo rico e intrincado de mistério, horror e ficção científica.')
+st.caption('SCP, ou "Secure, Contain, Protect", refere-se a uma comunidade de ficção colaborativa que cria e compartilha histórias sobre entidades, artefatos e fenômenos anômalos. Cada SCP é designado com um número único e descrito em um formato que simula um relatório científico ou arquivo de segurança, detalhando suas propriedades incomuns e os procedimentos necessários para mantê-lo seguro e fora do alcance do público. A comunidade SCP não apenas inventa esses elementos, mas também explora suas implicações narrativas, científicas e filosóficas, criando um universo rico e intrincado de mistério, horror e ficção científica.')
 st.caption('Autor: Guilherme Bittencourt')
 submitted = False
 with st.form(key='input_scp', border=True):
