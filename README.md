@@ -1,4 +1,4 @@
-# webscrapping-streamlit
+# webscraping-streamlit
 
 ## Atividade avaliativa final de desenvolvimento de algorítmos
 ### Introdução:
