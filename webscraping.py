@@ -77,7 +77,7 @@ st.caption('SCP, ou "Secure, Contain, Protect", refere-se a uma comunidade de fi
 st.caption('Autor: Guilherme Bittencourt')
 submitted = False
 with st.form(key='input_scp', border=True):
-    scp_num = st.text_input('SCP')
+    scp_num = st.text_input('SCP', placeholder='Exemplo: 173')
     if st.form_submit_button('Submit'):
         # DADOS DO SITE SCP
         url_scp = f'http://scp-pt-br.wikidot.com/scp-{scp_num}'
