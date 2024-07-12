@@ -78,7 +78,7 @@ st.caption('Autor: Guilherme Bittencourt')
 submitted = False
 with st.form(key='input_scp', border=True):
     scp_num = st.text_input('SCP', placeholder='Exemplo: 173')
-    if st.form_submit_button('Submit'):
+    if st.form_submit_button('Pesquisar'):
         # DADOS DO SITE SCP
         url_scp = f'http://scp-pt-br.wikidot.com/scp-{scp_num}'
         response = get_response(url_scp)
